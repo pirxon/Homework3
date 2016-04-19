@@ -18,7 +18,7 @@ public class Zadanie1 {
 			sum = sum + temp % 10;
 			temp = temp / 10;
 		}
-		System.out.println("Сумма чисел - "+sum);
+		System.out.println("РЎСѓРјРјР° С‡РёСЃРµР» - "+sum);
 		
 	}
 }
