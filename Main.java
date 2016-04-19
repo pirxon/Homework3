@@ -26,7 +26,10 @@ public class Main {
 		 * число с 2-мя знаками после запятой. Создайте программу, 
 		 * вычисляющую и выводящую на экран max и min цифру числа n.
 		 */
-		chislo.max();
-		chislo.min();
+		Zadanie2 chislo_max_min = new Zadanie2();
+		chislo_max_min.setN(234.56);
+		chislo_max_min.max();
+		chislo_max_min.min();
+		
 	}
 }
