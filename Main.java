@@ -6,8 +6,8 @@ public class Main {
 
 		Zadanie1 chislo = new Zadanie1();
 		chislo.setN(111.22);
-		chislo.summa();
-		
+		chislo.summa(); // Сумма чисел - 7
+
 	}
 
 }
