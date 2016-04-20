@@ -20,15 +20,15 @@ public class Zadanie2 {
 	    int e = (temp % 10);
 
 		if(a>b & a>c & a>d & a>e) {
-			System.out.println("Максимальное число - "+a);
+			System.out.println("РњР°РєСЃРёРјР°Р»СЊРЅРѕРµ С‡РёСЃР»Рѕ - "+a);
 		}else if(b>c & b>d & b>e ) {
-			System.out.println("Максимальное число - "+b);
+			System.out.println("РњР°РєСЃРёРјР°Р»СЊРЅРѕРµ С‡РёСЃР»Рѕ - "+b);
 		}else if(c>d & c>e) {
-			System.out.println("Максимальное число - "+c);
+			System.out.println("РњР°РєСЃРёРјР°Р»СЊРЅРѕРµ С‡РёСЃР»Рѕ - "+c);
 		}else if (d>e){
-			System.out.println("Максимальное число - "+d);
+			System.out.println("РњР°РєСЃРёРјР°Р»СЊРЅРѕРµ С‡РёСЃР»Рѕ - "+d);
 		}else
-			System.out.println("Максимальное число - "+e);
+			System.out.println("РњР°РєСЃРёРјР°Р»СЊРЅРѕРµ С‡РёСЃР»Рѕ - "+e);
 	}
 	
 	public void min() {
@@ -41,16 +41,17 @@ public class Zadanie2 {
 	    int e = (temp % 10);
 
 		if(a<b & a<c & a<d & a<e) {
-			System.out.println("Минимальное число - "+a);
+			System.out.println("РњРёРЅРёРјР°Р»СЊРЅРѕРµ С‡РёСЃР»Рѕ - "+a);
 		}else if(b<c & b<d & b<e ) {
-			System.out.println("Минимальное число - "+b);
+			System.out.println("РњРёРЅРёРјР°Р»СЊРЅРѕРµ С‡РёСЃР»Рѕ - "+b);
 		}else if(c<d & c<e) {
-			System.out.println("Минимальное число - "+c);
+			System.out.println("РњРёРЅРёРјР°Р»СЊРЅРѕРµ С‡РёСЃР»Рѕ - "+c);
 		}else if (d<e){
-			System.out.println("Минимальное число - "+d);
+			System.out.println("РњРёРЅРёРјР°Р»СЊРЅРѕРµ С‡РёСЃР»Рѕ - "+d);
 		}else
-			System.out.println("Минимальное число - "+e);
+			System.out.println("РњРёРЅРёРјР°Р»СЊРЅРѕРµ С‡РёСЃР»Рѕ - "+e);
 		
 	}
+
 
 }
