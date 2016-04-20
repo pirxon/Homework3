@@ -8,7 +8,8 @@ public class Zadanie1 {
 	}
 	
 	public void summa() {
-		int temp = (int)(n * 100);
+		//int temp = (int)(n * 100); // не правильно округляло последнюю цыфру 8
+		int temp =(int)(Math.round(n * 100));
 		int sum = 0; 
 		while (temp > 0) {
 			sum = sum + temp % 10;
