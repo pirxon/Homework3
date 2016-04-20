@@ -11,7 +11,8 @@ public class Zadanie2 {
 		this.n = n;
 	}
 	public void max() {
-		int temp = (int)(n * 100);
+		//int temp = (int)(n * 100);
+		int temp =(int)(Math.round(n * 100));
 	 	
 	    int a = (temp % 100000 / 10000);
 	 	int b = (temp % 10000 / 1000);
@@ -32,7 +33,8 @@ public class Zadanie2 {
 	}
 	
 	public void min() {
-		int temp = (int)(n * 100);
+		//int temp = (int)(n * 100);
+		int temp =(int)(Math.round(n * 100));
 	 	
 	    int a = (temp % 100000 / 10000);
 	 	int b = (temp % 10000 / 1000);
@@ -52,6 +54,4 @@ public class Zadanie2 {
 			System.out.println("Минимальное число - "+e);
 		
 	}
-
-
 }
