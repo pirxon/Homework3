@@ -3,10 +3,6 @@ package homework3;
 public class Zadanie1 {
 	private double n;
 
-	public double getN() {
-		return n;
-	}
-
 	public void setN(double n) {
 		this.n = n;
 	}
