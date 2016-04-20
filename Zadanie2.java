@@ -1,7 +1,7 @@
 package homework3;
 
 public class Zadanie2 {
-	protected double n;
+	private double n;
 
 	public double getN() {
 		return n;
